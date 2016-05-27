@@ -1,0 +1,7 @@
+<div ng-repeat="alert in vm.alerts">
+  <div class="alert alert-warning alert-dismissible" ng-class="alert.classes" role="alert">
+    <button type="button" class="close" ng-click="vm.close(alert.id)"><span>&times;</span></button>
+    <div ng-bind="alert.message"></div>
+  </div>
+</div>
+

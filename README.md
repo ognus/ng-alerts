@@ -1,2 +1,4 @@
-# ng-alerts
-A lightweight alert message module for AngularJS
+# og-alerts
+Configurable AngularJS module for displaying alert notifications.
+
+## Work in progress...
